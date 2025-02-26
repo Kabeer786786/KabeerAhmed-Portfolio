@@ -1,0 +1,122 @@
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%; /* Ensure this is set */
+  margin: auto;
+}
+
+.hoverbutton {
+  position: absolute;
+  margin-top: -65px;
+  margin-left: -8px;
+  transform: translateY(20%); /* Start below its normal position */
+  padding-left: 10px;
+  background-color: #001524;
+  padding-right: 10px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 
+    opacity 0.5s cubic-bezier(.28, .03, 0, .99),
+    transform 0.5s cubic-bezier(.28, .03, 0, .99),
+    visibility 0.5s;
+}
+
+.hoverbutton::after {
+  content: '';
+  background-color: #001524;
+  position: absolute;
+  top: 89%; 
+  left: 10px;
+  transform: translateX(30%) rotate(45deg);
+  transition: transform 0.3s;
+  width: 10px;
+  height: 10px; 
+  border: 2px solid white;
+  border-radius: 1px 1px 2px 0;
+  border-style: none solid solid none;
+}
+
+.innercard:hover > .hoverbutton {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0); /* Moves to its original position */
+}
+
+.innercard > .hoverbutton {
+  /* On hover out, it transitions back down */
+  transform: translateY(20%);
+}
+
+
+/* Projects  */
+.arrow-mark{
+  transition: all ease-in-out .4s;
+}
+.projectcard:hover .arrow-mark{
+  transform: rotate(45deg);
+  transition: all ease-in-out .4s;
+}
+.projectcard:hover  .arrowcircle{
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.projectcard{
+  transition: all ease-in-out .4s;
+}
+.projectcard:hover{
+  scale: 1.04;
+  box-shadow:0 0px 5px 0.5px rgba(148, 12, 202, 0.839), /* Violet */ 
+            0px 1px 5px 0.5px rgba(0, 255, 255, 0.843); /* Cyan */
+  transition: all ease-in-out .4s;
+}
+
+
+.experiencecard{
+  transition: all ease-in-out .4s;
+}
+.experiencecard:hover{
+  scale: 1.04;
+  box-shadow:0 0px 2px 0.5px rgba(148, 12, 202, 0.839), /* Violet */ 
+            0px 1px 3px 0.5px rgba(0, 255, 255, 0.843); /* Cyan */
+  transition: all ease-in-out .4s;
+}
+
+.bghomepic {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+  background: radial-gradient(circle, rgba(154, 39, 242, 0.724), rgba(2, 246, 250, 0.6),rgba(170, 219, 10, 0.564));
+  filter: blur(100px);
+  animation: rotateGradient 3s infinite linear;
+  transition: all 1s ease-in;
+}
+.group:hover .bghomepic{
+  background: radial-gradient(circle, rgba(130, 39, 242, 0.486),rgba(10, 219, 202, 0.564));
+  filter: blur(100px);
+  animation: rotateGradient 2s infinite linear;
+  transition: all 1s ease-in;
+}
+
+@keyframes rotateGradient {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

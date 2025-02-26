@@ -1,0 +1,58 @@
+.singleproject {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    /* Animation-related styles */
+    transform: translateY(-1400px);
+    opacity: 0;
+    transition: transform 0.9s ease, opacity 0.9s ease;
+}
+
+.singleproject.show {
+    display: block;
+    position: relative;
+    transform: translateY(0px); /* Slide into position */
+    transition: transform .7s ease, opacity 0.9s ease;
+    opacity: 1; /* Fully visible */
+}
+
+.formsubmit{
+    transition: ease-in .2s;
+}
+
+.formsubmit:hover{
+    scale: 1.05;
+    transition: ease-in .2s;
+}
+@media screen and (max-width: 400px){
+    .singleproject {
+        width: 91.5%;
+    }
+    .singleproject.show{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 400px){
+    .singleproject {
+        width: 92.5%;
+    }
+    .singleproject.show{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 500px){
+    .singleproject {
+        width: 93%;
+    }
+    .singleproject.show{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px){
+    .singleproject {
+        width: 487px;
+    }
+    .singleproject.show{
+        width: 490px;
+    }
+}
