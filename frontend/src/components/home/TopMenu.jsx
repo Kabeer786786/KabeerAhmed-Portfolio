@@ -1,4 +1,5 @@
-import { FaBusinessTime, FaEnvelope, FaGithub, FaLink, FaLinkedin } from "react-icons/fa";
+import { FaBusinessTime, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
 
 export default function TopMenu() {
   return (
@@ -16,9 +17,9 @@ export default function TopMenu() {
         <div className="flex items-center justify-center z-10 gap-2 p-1.5  md:m-2 lg:mt-2 border-2 border-gray-500 text-xl bg-gray-900 rounded-full">
           <a href="https://linkedin.com/in/kabeer786786" className="flex justify-center items-center w-8 h-8 md:w-9 md:h-9 bg-cyan-700 rounded-full" target="_blank"><FaLinkedin cursor={"pointer"} /></a>
           <a href="https://github.com/Kabeer786786" className="flex justify-center items-center  w-8 h-8 md:w-9 md:h-9 bg-cyan-700  rounded-full" target="_blank"><FaGithub cursor={"pointer"} /></a>
-          <a href="/" className="flex justify-center items-center  w-8 h-8 md:w-9 md:h-9 bg-cyan-700  rounded-full"><FaLink cursor={"pointer"} /> </a>
-          <a href="mailto:shaikkabeerahmed786@gmail.com" className="flex justify-center items-center  w-8 h-8 md:w-9 md:h-9 bg-cyan-700  rounded-full"><FaEnvelope cursor={"pointer"} /></a>
-          <a href="https://redhatcoders.tech" target="_blank" className="flex justify-center items-center  w-8 h-8 md:w-9 md:h-9 bg-cyan-700  rounded-full"><FaBusinessTime cursor={"pointer"} /></a>
+          <a href="https://www.youtube.com/@Shaik_Kabeer_Ahmed" className="flex justify-center items-center  w-8 h-8 md:w-9 md:h-9 bg-cyan-700  rounded-full"  target="_blank"><IoLogoYoutube cursor={"pointer"} /> </a>
+          <a href="mailto:shaikkabeerahmed786@gmail.com" className="flex justify-center items-center  w-8 h-8 md:w-9 md:h-9 bg-cyan-700  rounded-full" ><FaEnvelope cursor={"pointer"} /></a>
+          <a href="https://business.redhatcoders.tech" target="_blank" className="flex justify-center items-center  w-8 h-8 md:w-9 md:h-9 bg-cyan-700  rounded-full" ><FaBusinessTime cursor={"pointer"} /></a>
         </div>
       </div>
     </>

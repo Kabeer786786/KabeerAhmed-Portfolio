@@ -1,13 +1,11 @@
-
-
-const projects = [
-    {
+const projects = [{
     "id": 1,
     "images": ["college.jpg", "gprec.jpg", "osmania.jpg"],
     "title": "AI based Learning Platform",
     "subtitle": "Generative AI and Web Application",
     "duration": "2024-2025",
     "link": "https://www.careerwise.com",
+    "topskills": ["React", "TailwindCSS", "Node", "Gemini API"],
     "skills": "HTML, CSS, Tailwind CSS, JavaScript, PHP, MySQL, Payment Gateway, PHPMailer, Team Work.",
     "team": "Team-Size: 6",
     "info": ["The website is designed to provide seamless access to informationabout the latest coding events, hackathons, and workshops.",
@@ -23,6 +21,7 @@ const projects = [
     "subtitle": "Image Processing & Machine Learning",
     "duration": "Dec 2024 - Feb 2025",
     "link": "https://www.doodlerecogniser.in",
+    "topskills": ["React", "Node", "Python", "Flask", "CNN"],
     "skills": "Google Doodle, Django, Python, MySQL, Generative AI, PyQT desktop application.",
     "team": "Team-Size: 5",
     "info": ["The website is designed to provide seamless access to informationabout the latest coding events, hackathons, and workshops.",
@@ -38,6 +37,7 @@ const projects = [
     "subtitle": "Django Web Application and ML",
     "duration": "Mar 2025 - Nov 2025",
     "link": "https://www.mlmodels.redhatcoders.tech",
+    "topskills": ["HTML", "CSS", "JavaScript", "EJS", "Node Js"],
     "skills": "React JS, Tailwind CSS, Machine Learning, Deep Learning, Python, Django, MySQL",
     "team": "",
     "info": ["The website is designed to provide seamless access to informationabout the latest coding events, hackathons, and workshops.",
@@ -49,10 +49,11 @@ const projects = [
   {
     "id": 4,
     "images": ["college.jpg", "gprec.jpg", "osmania.jpg"],
-    "title": "AI-based Personalised Learning Path Generator",
+    "title": "AI-based Learning Path Generator",
     "subtitle": "Generative AI & Node Js Web Application",
     "duration": "Oct 2024 - Nov 2024",
     "link": "https://www.aicareer.kabeer.in",
+    "topskills": ["HTML", "CSS", "JavaScript", "EJS", "Node Js"],
     "skills": "HTML, CSS, JavaScript, EJS, Node Js, Python, LangChain, Generative AI, OpenAI.",
     "team": "",
     "info": ["Personalized Learning Experience: Designed a dynamic web application using Node.js and integrated OpenAI's API to generate tailored learning paths based on user preferences and goals.",
@@ -61,12 +62,13 @@ const projects = [
     ]
   },
   {
-    "id":5,
+    "id": 5,
     "images": ["college.jpg", "gprec.jpg", "osmania.jpg"],
     "title": "Sprnt Online Business Website",
     "subtitle": "E-Commerce MERN Website",
     "duration": "Jan 2024 - Apr 2025",
     "link": "https://www.sprnt.com",
+    "topskills": ["HTML", "CSS", "JavaScript", "EJS", "Node Js"],
     "skills": "HTML, CSS, JavaScript, React JS, MongoDb, Node JS, Express JS, Payment Gateway, Generative AI",
     "team": "Team-Size: 3",
     "info": ["The website is designed to provide seamless access to informationabout the latest coding events, hackathons, and workshops.",
@@ -82,6 +84,7 @@ const projects = [
     "subtitle": "React & PHP Website",
     "duration": "Dec 2024",
     "link": "https://www.kabeer.in",
+    "topskills": ["HTML", "CSS", "JavaScript", "EJS", "Node Js"],
     "skills": "HTML, CSS, JavaScript, React JS, PHP, MySQL,",
     "team": "",
     "info": ["The website is designed to provide seamless access to informationabout the latest coding events, hackathons, and workshops.",
@@ -97,6 +100,7 @@ const projects = [
     "subtitle": "Electromagnetic Induction and IOT",
     "duration": "Dec 2024 - Feb 2025",
     "link": "https://maglev.kabeer.in",
+    "topskills": ["HTML", "CSS", "JavaScript", "EJS", "Node Js"],
     "skills": "Electromagnetic Induction, Electro Magnets, 3D Printing, Team Work",
     "team": "Team-Size: 6",
     "info": ["The website is designed to provide seamless access to informationabout the latest coding events, hackathons, and workshops.",
@@ -112,6 +116,7 @@ const projects = [
     "subtitle": "Full-Stack Web Application",
     "duration": "Jul 2024 - Aug 2024",
     "link": "https://www.codersclubgprec.in",
+    "topskills": ["HTML", "CSS", "JavaScript", "EJS", "Node Js"],
     "skills": "HTML, CSS, Tailwind CSS, JavaScript, PHP, MySQL, Payment Gateway, PHPMailer, Team Work",
     "team": "Team-Size: 3",
     "info": ["The website is designed to provide seamless access to informationabout the latest coding events, hackathons, and workshops.",
@@ -127,13 +132,15 @@ const projects = [
     "subtitle": "Full-Stack Web Application",
     "duration": "Nov 2024",
     "link": "https://www.business.redhatcoders.tech",
+    "topskills": ["HTML", "CSS", "JavaScript", "EJS", "Node Js"],
     "skills": "HTML, CSS, JavaScript, JQuery, PHP, MySQL, AJAX, Charts.js",
     "team": "",
     "info": ["Comprehensive Sales Dashboard: Developed a feature-rich webapplication for PrintItOut company to seamlessly manage andvisualize sales, expenses, and profits.",
       "Dynamic Data Management: Enabled easy addition andmodification of transactions, offering real-time insights intofinancial performance with an intuitive and user-friendlyinterface.",
-      "Interactive Visualizations: Integrated Charts.js to create dynamicgraphs and detailed reports, helping users easily interpret profit,loss, and expense trends."]
+      "Interactive Visualizations: Integrated Charts.js to create dynamicgraphs and detailed reports, helping users easily interpret profit,loss, and expense trends."
+    ]
   },
-  
+
 ]
 
 export default projects

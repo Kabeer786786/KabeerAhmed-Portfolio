@@ -93,15 +93,15 @@
     transition: linear .2s;
 }
 
-.connectbtn2:hover {
+.connectbtn3:hover {
     font-weight: 600;
-    background-color: rgb(104, 138, 63);
+    background-color: rgb(64, 48, 181);
     box-shadow: 0 1px 10px 1px rgba(148, 12, 202, 0.839),
         0px 1px 5px 1px rgba(0, 255, 255, 0.843);
     transition: linear .2s;
 }
 
-.connectbtn3:hover {
+.connectbtn2:hover {
     font-weight: 600;
     background-color: rgb(53, 153, 166);
     box-shadow: 0 1px 10px 1px rgba(148, 12, 202, 0.839),
